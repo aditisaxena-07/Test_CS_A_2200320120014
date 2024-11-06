@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <style>
+      body {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+      }
+      .container {
+        background-color: whitesmoke;
+        width: 500px;
+        height: 300px;
+        border: 1px solid rgb(16, 6, 6);
+        border-radius: 2px;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        
+      }
+      .amount,.Convert{
+        margin: 10px;
+      }
+      .submit{
+        margin-left:80px;
+        margin-top: 50px;
+        outline: 0;
+        border: 1px solid black;
+        color: white;
+        padding: 8px 20px;
+        background-color: rgb(148, 235, 18);
+        border-radius: 3px;
+      }
+      .pass{
+        margin-left: 13px;
+      }
+      
+    </style>
+  </head>
+  <body>
+    <div class="container">
+      <h1>Login Here</h1>
+
+      <form action="./currency.html">
+        <div class="amount">
+          <label for="username"></label>Username: <input
+            type="text"
+            name=""
+            id="username"
+            required
+          />
+        </div>
+        <div class="Password">
+          <label for="Password" class='pass'></label >Password: <input
+            type="text"
+            name=""
+            id="Password"
+            required
+          />
+        </div>
+        <div>
+            <button type="submit" class="submit" value="Login" >Login</button></div>
+      </form>
+    </div>
+    <script src="login.js"></script>
+  </body>
+</html>
