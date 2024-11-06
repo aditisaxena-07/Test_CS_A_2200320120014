@@ -27,7 +27,7 @@ async function getData() {
     const convertedCurr = convert(amount1, amount2, curr1, curr2);
     const outputBox = document.querySelector("#Convert");
     console.log(outputBox);
-    outputBox.innerHTML = convertedCurr;
+    outputBox.value = convertedCurr;
   });
 }
 const select1 = document.querySelector(".option1");
